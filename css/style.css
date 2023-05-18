@@ -1,0 +1,299 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    scroll-behavior: smooth;
+    font-weight: 500;
+}
+
+header {
+    background-color: #ffa200;
+    color: #fff;
+    height: 220px;
+    margin-top: 0px;
+    margin-right: -20px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+}
+
+footer {
+    background-color: #ffa200;
+    margin-top: 0px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+h1  {
+    font-family: 'Satisfy', cursive;
+    margin-top: -130px;
+    font-size: 3em;
+}
+
+h2,h3,h4  {
+    font-family: 'Satisfy';
+    color: #ffa200 ;
+    font-size: 2em;
+    margin-top: 15px;
+    letter-spacing: 0.04em;
+}
+
+a   {
+    font-family: 'Satisfy';
+    color: white ;
+    font-size: 1.4em;
+}
+
+a:hover {
+    color: whitesmoke;
+    font-size: 1.4em; 
+}
+
+#logo {
+    height: 180px;
+    width: auto;
+    position: relative;
+    right: 350px;
+    top: -35px;
+}
+
+header, section {
+    padding: 5% 0% 0px 5% ;
+}
+
+.whitelink {
+    color: #fff;
+}
+
+.active {
+    color: #ffa200;
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.nounderline {
+    text-decoration: none;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+main {
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+/* Home */
+#spotify {
+    padding-bottom: 50px ;
+}
+
+#tramonto:hover {
+    width: 300px;
+}
+
+#spiaggia:hover {
+    width: 300px;
+}
+
+#Festival:hover {
+    width: 300px;
+}
+
+#tramonto {
+    height: 400px;
+    width: auto;
+}
+
+#spiaggia {
+    height: 400px;
+    width: auto;
+}
+
+#Festival {
+    height: 400px;
+    width: auto;
+}
+
+/* Servizi */
+#piadina {
+    border-style: dotted solid;
+    border-width: thick;
+    border-color: #ffa200;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #ffa20060;
+    height: 240px;
+    margin-top: 250px;
+}
+
+#piadina::first-letter {
+    font-size: 2em;
+    color: #ffa200;
+    text-transform: uppercase;
+}
+
+#navetta {
+    border-style: dotted solid;
+    border-width: thick;
+    border-color: #ffa200;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #ffa20060;
+    height: 350px;
+    margin-top: 80px;
+}
+
+#navetta::first-letter {
+    font-size: 2em;
+    color: #ffa200;
+    text-transform: uppercase;
+}
+
+#food {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+}
+
+#bus {
+    margin-top: -20px;
+    margin-right: 30px;
+}
+
+/* Tickets */
+#standard,#vip,#experience {
+    margin-bottom: 100px;
+}
+
+/* Info */
+.carousel {
+    margin: 25%;
+    padding-top: -20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}   
+
+#luogo {
+    height: 400px;
+    width: auto;
+}
+
+#scalettavenerdì {
+    height: 600px;
+    width: auto;
+}
+
+#scalettasabato {
+    height: 600px;
+    width: auto;
+}
+
+#scalettadomenica {
+    height: 600px;
+    width: auto;
+}
+
+/* shop */
+#adesivi {
+    height: 250px;
+    width: auto;
+}
+
+#T-shirt {
+    height: 250px;
+    width: auto;
+}
+
+#cover {
+    height: 250px;
+    width: auto;
+}
+
+#infradito {
+    height: 250px;
+    width: auto;
+}
+
+#borraccia {
+    height: 250px;
+    width: auto;
+}
+
+#costume {
+    height: 250px;
+    width: auto;
+}
+
+#pantaloncini {
+    height: 250px;
+    width: auto;
+}
+
+#t-shirt {
+    height: 250px;
+    width: auto;
+}
+
+#cappellino {
+    height: 250px;
+    width: auto;
+}
+/* Documntazione */
+
+#tabellacompetitors {
+    height: 250px;
+    width: auto;
+}
+
+#architetturasito {
+    height: 300px;
+    width: auto;
+}
+
+#wireframehome {
+    height: 400px;
+    width: auto;
+}
+
+#wireframeinfo {
+    height: 400px;
+    width: auto;
+}
+
+#wireframetickets {
+    height: 400px;
+    width: auto;
+}
+
+#wireframeservizi {
+    height: 400px;
+    width: auto;
+}
+
+#wireframeshop {
+    height: 400px;
+    width: auto;
+}
+
+#instagramdocumentazione {
+    height: 500px;
+    width: auto;
+}
+
+#volantinodocumentazione {
+    height: 500px;
+    width: auto;
+}
