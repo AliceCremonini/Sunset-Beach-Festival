@@ -3,6 +3,7 @@ body {
     text-align: center;
     scroll-behavior: smooth;
     font-weight: 500;
+    max-width: 100%;
 }
 
 header {
@@ -204,37 +205,44 @@ nav ul li {
 #luogo {
     height: 400px;
     width: auto;
+    max-width: 100%;
 }
 
 #scalettavenerdì {
     height: 80%;
     width: auto;
+    max-width: 100%;
 }
 
 #scalettasabato {
     height: 80%;
     width: auto;
+    max-width: 100%;
 }
 
 #scalettadomenica {
     height: 80%;
     width: auto;
+    max-width: 100%;
 }
 
 /* shop */
 #adesivi {
     height: 250px;
     width: auto;
+    max-width: 100%;
 }
 
 #T-shirt {
     height: 250px;
     width: auto;
+    max-width: 100%;
 }
 
 #cover {
     height: 250px;
     width: auto;
+    max-width: 100%;
 }
 
 #infradito {
