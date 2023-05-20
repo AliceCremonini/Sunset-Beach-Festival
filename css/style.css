@@ -30,7 +30,7 @@ nav ul li {
 
 /* Media query per la navigazione con larghezza > di 768px */
 @media (min-width: 576px) {
-    #nav a.icon { display: inline-block}
+    #nav { display: block; }
 
 }
 
