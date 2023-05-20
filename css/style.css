@@ -200,6 +200,7 @@ nav ul li {
 #mappaluogo {
     height: 40%;
     width: auto;
+    max-width: 100%;
     
 }
 
@@ -280,44 +281,53 @@ nav ul li {
 #tabellacompetitors {
     height: 250px;
     width: auto;
+    max-width: 100%;
 }
 
 #architetturasito {
     height: 300px;
     width: auto;
+    max-width: 100%;
 }
 
 #wireframehome {
     height: 400px;
     width: auto;
+    max-width: 100%;
 }
 
 #wireframeinfo {
     height: 400px;
     width: auto;
+    max-width: 100%;
 }
 
 #wireframetickets {
     height: 400px;
     width: auto;
+    max-width: 100%;
 }
 
 #wireframeservizi {
     height: 400px;
     width: auto;
+    max-width: 100%;
 }
 
 #wireframeshop {
     height: 400px;
     width: auto;
+    max-width: 100%;
 }
 
 #instagramdocumentazione {
     height: 500px;
     width: auto;
+    max-width: 100%;
 }
 
 #volantinodocumentazione {
     height: 500px;
     width: auto;
+    max-width: 100%;
 }
