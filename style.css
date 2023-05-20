@@ -181,6 +181,7 @@ nav ul li {
     margin-bottom: -5px;
 }
 
+
 /* Tickets */
 #standard,#vip,#experience {
     margin-bottom: 100px;
@@ -209,21 +210,21 @@ nav ul li {
 }
 
 #scalettavenerdì {
-    height: 80%;
+    height: 600px;
     width: auto;
     max-width: 100%;
 }
 
 #scalettasabato {
-    height: 80%;
+    height: 600px;
     width: auto;
     max-width: 100%;
 }
 
 #scalettadomenica {
-    height: 80%;
+    height: 600px;
     width: auto;
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 /* shop */
