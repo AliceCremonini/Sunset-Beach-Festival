@@ -26,16 +26,7 @@ footer {
 
 nav ul li {
     display: inline-block;
-    text-align: center !important;
 }
-
-/* Media query per la navigazione con larghezza > di 768px */
-@media (min-width: 576px) {
-    nav {
-        display: table-row;
-    }
-    }
-
 
 h1  {
     font-family: 'Satisfy', cursive;
