@@ -28,6 +28,12 @@ nav ul li {
     display: inline-block;
 }
 
+/* Media query per la navigazione con larghezza > di 768px */
+@media (min-width: 576px) {
+    #nav { display: inline-block}
+
+}
+
 h1  {
     font-family: 'Satisfy', cursive;
     margin-top: -130px;
