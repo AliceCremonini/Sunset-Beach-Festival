@@ -164,7 +164,6 @@ nav ul li {
 }
 
 #navetta::first-letter {
-    font-size: 2em;
     color: #ffa200;
     text-transform: uppercase;
 }
@@ -186,6 +185,10 @@ nav ul li {
 #standard,#vip,#experience {
     margin-bottom: 100px;
     max-width: 100%;
+}
+
+#romagna {
+    margin-bottom: 100px;
 }
 
 /* Info */
