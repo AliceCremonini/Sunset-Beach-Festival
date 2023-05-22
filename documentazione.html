@@ -25,13 +25,14 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <!-- Responsive Style -->
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
     <body class="container-fluid" background="imgs/IMG_2746.jpg">
         <header>
-            <img id="logo" src="imgs/logo.png">
-            <h1>Sunset Beach Festival</h1>
+            <img class="animate__animated animate__pulse" id="logo" src="imgs/logo.png">
+            <h1 class="animate__animated animate__pulse">Sunset Beach Festival</h1>
             <nav>
                 <ul>
                     <li><a class="whitelink nounderline" href="index.html">homepage <i class="fa-solid fa-house fa-xs" style="color: #ffffff;"></i></a></li>
@@ -65,12 +66,11 @@
             <p><b>Benchmarking</b></p>
             <p> -	Obiettivi: il nostro obiettivo è quello di mostrare al meglio il Sunset Beach Festival invogliando più persone a partecipare. <br>
                     Tramite il nostro sito forniamo diversi servizi per incoraggiare e agevolare la partecipazione al festival. <br>
-                -	Ci rivolgiamo a un target di utenti prevalentemente giovane (15-35 anni) che non vede l'ora di arricchire la sua estate <br>
-                    con una bella giornata in spiaggia tra musica, concerti e sole. <br>
+                -	Ci rivolgiamo a un target di utenti prevalentemente giovane (15-35 anni).<br>
                 -	Competitors: i concorrenti che abbiamo analizzato sono Coachella e Rock in Roma. <br>
                     Il Coachella è un festival musicale internazionale che si tiene ogni anno verso fine aprile nel deserto della California, <br> 
                     si tratta quindi di un evento estivo famoso in tutto il mondo che accoglie un target molto ampio. <br>
-                    Il rock in Roma invece è un festival conosciuto soprattutto in Italia e che quindi si focalizza su artisti e utenti italiani. <br>
+                    Il Rock in Roma invece è un festival conosciuto soprattutto in Italia e che quindi si focalizza su artisti e utenti italiani. <br>
                     Entrambi i siti mettono in primo piano gli ospiti informando subito gli utenti sulle scalette, i biglietti e le date. Il Coachella si propone come più allegro <br>
                     e colorato ricordando il luogo del festival che è molto suggestivo immerso nel caldo deserto californiano. <br>
                     Al contrario il Rock in Roma ha una grafica molto scura e di impatto. <br>
@@ -80,12 +80,12 @@
              </p> 
             <p><b>Struttura e layout</b></p>
             <p>1.Architettura del sito:</p>
-            <p> <img id="architetturasito" src="imgs/architetturasito1.jpg" alt=" struttura ad albero del sito" class="img-fluid"> </p>
+            <p> <img id="architetturasito" src="imgs/schemaalbero.jpg" alt=" struttura ad albero del sito" class="img-fluid"> </p>
             <p>2.Wireframe:</p>
             <div class="row">
                 <div class="col-6 col-md-4 col-sx-4 col-sm-4">Home
                     <div style="text-align: left;"></div>
-                    <img id="wireframehome" src="imgs/wireframehome.png" alt=" wireframe home" class="img-fluid">
+                    <img id="wireframehome" src="imgs/homewireframe.png" alt=" wireframe home" class="img-fluid">
                 </div>
                 <div class="col-6 col-md-4 col-sx-4 col-sm-4">Info
                     <div style="text-align: center;"></div>
@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-6 col-md-4 col-sx-4 col-sm-4">Tickets
                     <div style="text-align: right;"></div>
-                    <img id="wireframetickets" src="imgs/wireframetickets.png" alt="wireframe tickets" class="img-fluid">
+                    <img id="wireframetickets" src="imgs/ticketswireframe.png" alt="wireframe tickets" class="img-fluid">
                 </div>
               </div>
             <div class="row">
@@ -116,9 +116,9 @@
             </p>
             <p><b>Linguaggi e strumenti</b></p>
             <p>Linguaggi: HTML e CSS <br>
-               Strumenti: Google Fonts (per i font), Bootstrap, w3schools, Github (per la pubblicazione), <br>
+               Strumenti: Google Fonts (per le fonts), Bootstrap (per gli elementi di design interattivo), w3school (per la grafica), Github (per la pubblicazione), <br>
                Google Analytics e Instagram Insights (per la valutazione dei risultati), Canva (per il logo, il merchandising e le immagini) <br>
-                Weatherwidget (per il meteo)
+                Weatherwidget (per il meteo), Spotify (per la musica), Animate.css (per le animazioni), Pinterest e Wikipedia (per alcune immagini), Font Awesome (per le icone) e Favicon.
             </p>
         </section>  
         <section>
@@ -128,7 +128,7 @@
                  ad un festival estivo (colori e font allegri, immagini del luogo, fotografie). <br>
                 Essendo a tratti dispersivo su quelle che invece sono informazioni fondamentali, come ad esempio l’acquisto delle diverse tipologie di pass <br>
                 per l’accesso al festival, è stato deciso di non riprendere la struttura del sito. <br>
-                Al contrario, è stato scelto di dare priorità alle infromazioni più rilevanti (le date e gli orari del festival). <br>
+                Al contrario, è stato scelto di dare priorità alle informazioni più rilevanti (le date e gli orari del festival). <br>
                 Il sito del Rock in Roma mette molto in evidenza gli artisti e le loro rispettive date, le scritte sono di impatto. <br>
                 Il font è decisamente più rigido rispetto a quello utilizzato sul sito del Coachella. <br>
                 La struttura del sito fornisce molti punti di accesso alle informazioni sul luogo dell’evento e diverse indicazioni su come raggiungerlo <br>
@@ -137,28 +137,31 @@
             </p>
             <p><b>2. Obiettivi comunicativi</b></p>
             <p>L’obiettivo principale è quello di farci conoscere il più possibile e raggiungere gli utenti giusti. <br>
-                Inoltre, vogliamo offrire l’opportunità di godere di un’esperienza diversa dal solito: un festival in spiaggia. <br>
+                Inoltre, vogliamo offrire l’opportunità di godere di un’esperienza diversa dal solito: un festival in spiaggia. Le strategie comunicative con cui <br> cerchiamo di raggiungere i nostri obbiettivi sono:
+                l'uso di trigger esterni quindi l'iscrizione da parte degli utenti alla newsletter di modo da poterli <br>sempre tenere aggiornati sulle novità e la distribuzione di volantini e il visual story telling ovvero
+                la creazione di un sito che soprattutto a livello grafico <br> cerchi di riprodurre le vibes della riviera romagnola che tutti i giovani amano
                In particolare, gli obiettivi di comunicazione web sono: <br>
                - 70 visite al sito <br>
-               - 30 like ad un post di Instagram della pagina <br>
-               - 50 visualizzazioni ad una storia su Instagram della pagina che sponsorizza il sito 
+               - 500 follower sulla pagina Instagram <br>
+               - 100 visualizzazioni ad una storia su Instagram della pagina che sponsorizza il sito 
             </p>
             <p><b>3. Target audience e messaggio</b></p>
-            <p>Con questo sito vogliamo rivolgerci e raggiungere un target giovane italiano, nello specifico di under 35 (come quello dei nostri competitors) <br>
-               che è quello che popola maggiormente le zone della riviera romagnola con locali o altre occasioni di divertimento, <br>
-               ed è quindi in cerca di un’esperienza come un festival musicale in spiaggia. <br>
+            <p>Con questo sito vogliamo rivolgerci e raggiungere i giovani di tutta Italia che ascoltano musica pop, nello specifico di under 35 (come quello dei nostri <br> competitors) 
+               che sono quelli che maggiormente popolano le zone della riviera romagnola con locali o altre occasioni di divertimento. <br>
                Di solito questo target viene raggiunto principalmente tramite profili sui social network, il passaparola, produzioni grafiche accattivanti, <br> 
-               colori allegri, immagini, loghi riconoscibili e un’identità facilmente individuabile per l’evento. Per quanto riguarda il messaggio del sito, <br>
+               colori allegri, immagini, loghi riconoscibili e un’identità facilmente individuabile per l’evento. Il nostro sito accoglie anche target secondari come quello che va dai 35 ai 45 anni
+               che vedendo un cantante noto (ad esempio Marco Mengoni) decide di partecipare al nostro festival.
+               Per quanto riguarda il messaggio del sito, <br>
                quello che ci interessa trasmettere è la chiarezza e la facilità di comprensione delle informazioni relative all’organizzazione e lo svolgimento del festival. <br>
                Quindi, una volta raggiunto il messaggio, è importante che gli utenti visualizzino e comprendano le pagine relative alle informazioni essenziali <br>
-               e in seguito, se interessati, acquistino i biglietti per partecipare all’evento o uno dei nostri servizi aggiuntivi.
+               e in seguito, se interessati, acquistino i biglietti o uno dei nostri servizi aggiuntivi.
             </p>
             <p><b>4.Promozione</b></p>
             <p>Il target a cui ci rivolgiamo viene raggiunto principalmente tramite i social, in particolare Instagram che si rivolge maggiormente alla fascia under 35, <br>
-                perciò focalizziamo la nostra presenza lì e creiamo numerosi collegamenti diretti con il nostro sito tramite post, 
-                storie e reel in cui è presente l'URL del sito. <br>
+                perciò focalizziamo la nostra presenza lì e creiamo numerosi collegamenti diretti con il nostro sito tramite post e 
+                storie in cui è presente l'URL del sito. <br>
                 Per quanto riguarda l’aspetto pubblicitario verranno utilizzati anche dei volantini con il codice QR della pagina appesi <br>
-                nei maggiori luoghi di ritrovo del nostro target. Inoltre tramite whatsapp sarà possibile condividiere il link diretto al nostro sito <br>
+                nei luoghi di ritrovo del nostro target. Inoltre tramite whatsapp sarà possibile condividiere il link diretto al nostro sito <br>
                 per un maggiore passaparola tra gruppi di amici che intendono partecipare al festival. <br>
                 Per promuovere un festival in spiaggia sono utili anche promoter dal vivo sul luogo dell’evento e dintorni oppure una partecipazione <br>
                 del comune di Ravenna e della pro loco di Marina di Ravenna per la sponsorizzazione dell’evento. <br>
@@ -167,23 +170,39 @@
                 <div class="row">
                     <div class="col-6 col-md-4 col-sx-4 col-sm-4"> Feed Instagram per mobile
                         <div style="text-align: left;"></div>
-                        <img id="instagramdocumentazione" src="imgs/mobile.png" alt="pagina instagram" class="img-fluid">
+                        <img id="instagramdocumentazione" src="imgs/instagrammobile.png" alt="pagina instagram" class="img-fluid">
                     </div>
                     <div class="col-6 col-md-4 col-sx-4 col-sm-4">Volantino promozionale con QR code
                         <div style="text-align: center;"></div>
-                        <img id="volantinodocumentazione" src="imgs/volantino1.png" alt="volantino" class="img-fluid">
+                        <img id="volantinodocumentazione" src="imgs/volantinopromozionale.png" alt="volantino" class="img-fluid">
                     </div>
                     <div class="col-6 col-md-4 col-sx-4 col-sm-4"> Feed Instagram web
                         <div style="text-align: right;"></div>
-                        <img id="instagramdocumentazione" src="imgs/web.png" alt="pagina instagram" class="img-fluid">
+                        <img id="instagramdocumentazione" src="imgs/instagramweb.png" alt="pagina instagram" class="img-fluid">
                     </div>
                   </div>
             
                 <p><b>5.Valutazione dei risultati</b></p>
-                <p> Per quanto riguarda Instagram, abbiamo utilizzato la funzione "insights" per monitorare le statistiche della nostra pagina. <br> 
+                <p> Per la valjtazione del nostro primo obiettivo ci siamo affidate a Google Analytics <br>
+                    tramite il quale abbiamo rilevato le visualizzazioni del nostro sito web.
+                    Per quanto riguarda Instagram, abbiamo utilizzato la funzione "insights" per monitorare le statistiche della nostra pagina. <br> 
                     Questi dati ci hanno permesso di valutare l'efficacia della nostra strategia comunicativa. <br>
                     Complessivamemnte, l'utilizzo di queste statistiche e di Google Analytics ci ha consentito di ottenere una panoramica completa delle <br>
-                    prestazioni del nostro sito web e della nostra presenza su Instagram, raggiungendo gli obiettvi che ci eravamo prefissate. </p>
+                    prestazioni del nostro sito web e della nostra presenza su Instagram, raggiungendo e superando tutti gli obiettvi che ci eravamo prefissate. </p>
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-sx-4 col-sm-4">Visite al sito
+                            <div style="text-align: left;"></div>
+                            <img id="scalettavenerdì" src="imgs/scalettavenerdì2.png" alt="ospiti di venerdì" class="img-fluid">
+                        </div>
+                        <div class="col-6 col-md-4 col-sx-4 col-sm-4"> Followers su Instagram
+                            <div style="text-align: center;"></div>
+                            <img id="valutazionerisultati" src="imgs/followers.jpg" alt="followers su instagram" class="img-fluid" >
+                        </div>
+                        <div class="col-6 col-md-4 col-sx-4 col-sm-4"> Visualizzazioni ad una storia
+                            <div style="text-align: right;"></div>
+                            <img id="scalettadomenica" src="imgs/scalettadomenica.png" alt="ospiti di domenica" class="img-fluid">
+                        </div>
+                      </div>
         </section>
     </main> 
         <footer>
@@ -198,7 +217,7 @@
                 </ul>
             </nav>
             <p style="color: white;"><b>Ecco come puoi contattarci e la nostra pagina Instagram</b></p>
-            <a href="https://www.instagram.com/sunsetbeachfestival2023/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><i class="fa-brands fa-instagram fa-2x" style="color: white;"></i></a>
+            <a href="https://instagram.com/sunsetbeachfestival23?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-instagram fa-2x" style="color: white;"></i></a>
             <a href="mailto:sunsetbeachfestival@gmail.com" target="_blank"><i class="fa-regular fa-envelope fa-2x" style="color: white;"></i></a> 
             <p style="color: white;"> <i>Il sito è stato realizzato per un esame universitario da Alice Bassi & Alice Cremonini</i></p> 
         </footer>
