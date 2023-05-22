@@ -164,6 +164,7 @@ nav ul li {
 }
 
 #navetta::first-letter {
+    font-size: 2em;
     color: #ffa200;
     text-transform: uppercase;
 }
@@ -175,9 +176,9 @@ nav ul li {
 }
 
 #bus {
-    margin-top: -20px;
+    margin-top: -4rem;
     margin-right: 30px;
-    margin-bottom: -5px;
+    margin-bottom: -4px;
 }
 
 
@@ -190,6 +191,16 @@ nav ul li {
 #romagna {
     margin-bottom: 100px;
 }
+
+#romagna,#gatto,#alluvione { 
+    height: 250px;
+    width: auto;
+    max-width: 100%;
+    border: dotted 5px;
+    border-radius: 50%;
+    border-color: #ffa200;
+}
+
 
 /* Info */
 .carousel {
@@ -283,7 +294,7 @@ nav ul li {
 /* Documntazione */
 
 #tabellacompetitors {
-    height: 250px;
+    height: 350px;
     width: auto;
     max-width: 100%;
 }
@@ -339,6 +350,13 @@ nav ul li {
 
 #volantinodocumentazione {
     height: 500px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#valutazionerisultati {
+    height: 300px;
     width: auto;
     max-width: 100%;
     max-height: 100%;
