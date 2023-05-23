@@ -41,6 +41,7 @@ h2,h3,h4  {
     margin-top: 15px;
     letter-spacing: 0.04em;
     max-width: 100%;
+    margin-left: -2%;
 }
 
 a   {
@@ -221,6 +222,12 @@ nav ul li {
     border-radius: 50%;
     border-color: #ffa200;
     margin-bottom: 10%;
+}
+
+#emilia {
+    margin-top: -5%;
+    margin-left: -5%;
+    margin-right: 5%;
 }
 
 
