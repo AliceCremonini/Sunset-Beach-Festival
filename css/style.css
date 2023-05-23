@@ -213,10 +213,6 @@ nav ul li {
     max-width: 100%;
 }
 
-#romagna {
-    margin-bottom: 100px;
-}
-
 #romagna,#gatto,#alluvione { 
     height: 250px;
     width: auto;
@@ -224,6 +220,7 @@ nav ul li {
     border: dotted 5px;
     border-radius: 50%;
     border-color: #ffa200;
+    margin-bottom: 10%;
 }
 
 
