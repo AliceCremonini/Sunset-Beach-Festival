@@ -251,7 +251,6 @@ nav ul li {
     height: 400px;
     width: auto;
     max-width: 100%;
-    max-height: 100%;
 }
 
 #scalettavenerdì {
@@ -388,21 +387,18 @@ nav ul li {
     height: 275px;
     width: auto;
     max-width: 100%;
-    max-height: 100%;
 }
 
 #visite {
     height: 260px;
     width: auto;
     max-width: 100%;
-    max-height: 100%;
 }
 
 #visualizzazioni {
     height: 275px;
     width: auto;
     max-width: 100%;
-    max-height: 100%;
 }
 
 #myBtn {
