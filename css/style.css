@@ -104,6 +104,22 @@ nav ul li {
 /* Home */
 #spotify {
     padding-bottom: 50px ;
+    margin-right: 3%;
+}
+
+#singer {
+    border: solid;
+    border-color: #1adefd;
+    border-radius: 0%;
+    border-left: 100%;
+    align-content: right;
+    margin-right: 3%;
+}
+
+#singer:hover {
+    border: dotted;
+    border-color: #1adefd;
+    background-color: #b6f1fa;
 }
 
 #tramonto:hover {
@@ -179,6 +195,11 @@ nav ul li {
     margin-top: 0%;
     margin-right: 2%;
     margin-bottom: 1%;
+}
+
+#carousel1 {
+    min-height: 40%;
+    min-width: 40%;
 }
 
 
