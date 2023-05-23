@@ -385,21 +385,15 @@ nav ul li {
 }
 
 #valutazionerisultati {
-    height: 275px;
-    width: auto;
-    max-width: 100%;
+    margin-bottom: 10%;
 }
 
 #visite {
-    height: 260px;
-    width: auto;
-    max-width: 100%;
+    margin-bottom: 10%;
 }
 
 #visualizzazioni {
-    height: 275px;
-    width: auto;
-    max-width: 100%;
+    margin-bottom: 10%;
 }
 
 #myBtn {
